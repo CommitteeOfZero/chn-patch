@@ -1,0 +1,6 @@
+{
+  "__schema_version": 2,
+  "channel": "stable-steam-win32",
+  "intVersion": 6,
+  "updateCheckUrl": "https://raw.githubusercontent.com/CommitteeOfZero/chn-patch/master/update.json"
+}
