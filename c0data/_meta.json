@@ -1,0 +1,1682 @@
+{
+    "alignment": 2048,
+    "encrypt-tables": false,
+    "randomize-padding": false,
+    "entries": [
+        {
+            "name": "bbs_02_039a.webp",
+            "path": "bg/bbs_02_039a.webp",
+            "id": 0
+        },
+        {
+            "name": "bbs_05_094a.webp",
+            "path": "bg/bbs_05_094a.webp",
+            "id": 1
+        },
+        {
+            "name": "bbs_05_107a.webp",
+            "path": "bg/bbs_05_107a.webp",
+            "id": 2
+        },
+        {
+            "name": "bbs_06_121a.webp",
+            "path": "bg/bbs_06_121a.webp",
+            "id": 3
+        },
+        {
+            "name": "bbs_07_134a.webp",
+            "path": "bg/bbs_07_134a.webp",
+            "id": 4
+        },
+        {
+            "name": "bbs_08_156a.webp",
+            "path": "bg/bbs_08_156a.webp",
+            "id": 5
+        },
+        {
+            "name": "bg_k_157a.webp",
+            "path": "bg/bg_k_157a.webp",
+            "id": 6
+        },
+        {
+            "name": "bg_mveyes01_end.webp",
+            "path": "bg/bg_mveyes01_end.webp",
+            "id": 7
+        },
+        {
+            "name": "bg_mveyes03_end.webp",
+            "path": "bg/bg_mveyes03_end.webp",
+            "id": 8
+        },
+        {
+            "name": "bg_mvpc01_end.webp",
+            "path": "bg/bg_mvpc01_end.webp",
+            "id": 9
+        },
+        {
+            "name": "bg000_01_1.webp",
+            "path": "bg/bg000_01_1.webp",
+            "id": 10
+        },
+        {
+            "name": "bg000_02_1.webp",
+            "path": "bg/bg000_02_1.webp",
+            "id": 11
+        },
+        {
+            "name": "bg003_01_1.webp",
+            "path": "bg/bg003_01_1.webp",
+            "id": 12
+        },
+        {
+            "name": "bg004_01_1.webp",
+            "path": "bg/bg004_01_1.webp",
+            "id": 13
+        },
+        {
+            "name": "bg010_01_1.webp",
+            "path": "bg/bg010_01_1.webp",
+            "id": 14
+        },
+        {
+            "name": "bg011_01_1.webp",
+            "path": "bg/bg011_01_1.webp",
+            "id": 15
+        },
+        {
+            "name": "bg012_01_1.webp",
+            "path": "bg/bg012_01_1.webp",
+            "id": 16
+        },
+        {
+            "name": "bg012_02_1.webp",
+            "path": "bg/bg012_02_1.webp",
+            "id": 17
+        },
+        {
+            "name": "bg013_01_1.webp",
+            "path": "bg/bg013_01_1.webp",
+            "id": 18
+        },
+        {
+            "name": "bg018_02_1.webp",
+            "path": "bg/bg018_02_1.webp",
+            "id": 19
+        },
+        {
+            "name": "bg022_01_1.webp",
+            "path": "bg/bg022_01_1.webp",
+            "id": 20
+        },
+        {
+            "name": "bg026_03_1.webp",
+            "path": "bg/bg026_03_1.webp",
+            "id": 21
+        },
+        {
+            "name": "bg026_03_4.webp",
+            "path": "bg/bg026_03_4.webp",
+            "id": 22
+        },
+        {
+            "name": "bg026_03_6.webp",
+            "path": "bg/bg026_03_6.webp",
+            "id": 23
+        },
+        {
+            "name": "bg026_05_1.webp",
+            "path": "bg/bg026_05_1.webp",
+            "id": 24
+        },
+        {
+            "name": "bg027_04_3.webp",
+            "path": "bg/bg027_04_3.webp",
+            "id": 25
+        },
+        {
+            "name": "bg032_01_2.webp",
+            "path": "bg/bg032_01_2.webp",
+            "id": 26
+        },
+        {
+            "name": "bg034_01_3.webp",
+            "path": "bg/bg034_01_3.webp",
+            "id": 27
+        },
+        {
+            "name": "bg042_01_2.webp",
+            "path": "bg/bg042_01_2.webp",
+            "id": 28
+        },
+        {
+            "name": "bg042_02_2.webp",
+            "path": "bg/bg042_02_2.webp",
+            "id": 29
+        },
+        {
+            "name": "bg042_03_2.webp",
+            "path": "bg/bg042_03_2.webp",
+            "id": 30
+        },
+        {
+            "name": "bg044_01_1.webp",
+            "path": "bg/bg044_01_1.webp",
+            "id": 31
+        },
+        {
+            "name": "bg044_02_1.webp",
+            "path": "bg/bg044_02_1.webp",
+            "id": 32
+        },
+        {
+            "name": "bg044_03_1.webp",
+            "path": "bg/bg044_03_1.webp",
+            "id": 33
+        },
+        {
+            "name": "bg044_04_1.webp",
+            "path": "bg/bg044_04_1.webp",
+            "id": 34
+        },
+        {
+            "name": "bg044_05_1.webp",
+            "path": "bg/bg044_05_1.webp",
+            "id": 35
+        },
+        {
+            "name": "bg047_01_6.webp",
+            "path": "bg/bg047_01_6.webp",
+            "id": 36
+        },
+        {
+            "name": "bg048_01_1.webp",
+            "path": "bg/bg048_01_1.webp",
+            "id": 37
+        },
+        {
+            "name": "bg051_01_1.webp",
+            "path": "bg/bg051_01_1.webp",
+            "id": 38
+        },
+        {
+            "name": "bg051_01_2.webp",
+            "path": "bg/bg051_01_2.webp",
+            "id": 39
+        },
+        {
+            "name": "bg051_02_1.webp",
+            "path": "bg/bg051_02_1.webp",
+            "id": 40
+        },
+        {
+            "name": "bg064_01_2.webp",
+            "path": "bg/bg064_01_2.webp",
+            "id": 41
+        },
+        {
+            "name": "bg065_01_2.webp",
+            "path": "bg/bg065_01_2.webp",
+            "id": 42
+        },
+        {
+            "name": "bg071_01_3.webp",
+            "path": "bg/bg071_01_3.webp",
+            "id": 43
+        },
+        {
+            "name": "bg074_01_1.webp",
+            "path": "bg/bg074_01_1.webp",
+            "id": 44
+        },
+        {
+            "name": "bg074_01_2.webp",
+            "path": "bg/bg074_01_2.webp",
+            "id": 45
+        },
+        {
+            "name": "bg076_01_1.webp",
+            "path": "bg/bg076_01_1.webp",
+            "id": 46
+        },
+        {
+            "name": "bg079_01_1.webp",
+            "path": "bg/bg079_01_1.webp",
+            "id": 47
+        },
+        {
+            "name": "bg079_01_2.webp",
+            "path": "bg/bg079_01_2.webp",
+            "id": 48
+        },
+        {
+            "name": "bg079_01_3.webp",
+            "path": "bg/bg079_01_3.webp",
+            "id": 49
+        },
+        {
+            "name": "bg083_01_1.webp",
+            "path": "bg/bg083_01_1.webp",
+            "id": 50
+        },
+        {
+            "name": "bg083_02_3.webp",
+            "path": "bg/bg083_02_3.webp",
+            "id": 51
+        },
+        {
+            "name": "bg085_01_0.webp",
+            "path": "bg/bg085_01_0.webp",
+            "id": 52
+        },
+        {
+            "name": "bg085_01_3.webp",
+            "path": "bg/bg085_01_3.webp",
+            "id": 53
+        },
+        {
+            "name": "bg085_02_3.webp",
+            "path": "bg/bg085_02_3.webp",
+            "id": 54
+        },
+        {
+            "name": "bg085_03_0.webp",
+            "path": "bg/bg085_03_0.webp",
+            "id": 55
+        },
+        {
+            "name": "bg085_03_3.webp",
+            "path": "bg/bg085_03_3.webp",
+            "id": 56
+        },
+        {
+            "name": "bg095_01_1.webp",
+            "path": "bg/bg095_01_1.webp",
+            "id": 57
+        },
+        {
+            "name": "bg095_02_1.webp",
+            "path": "bg/bg095_02_1.webp",
+            "id": 58
+        },
+        {
+            "name": "bg097_01_0.webp",
+            "path": "bg/bg097_01_0.webp",
+            "id": 59
+        },
+        {
+            "name": "bg097_01_2.webp",
+            "path": "bg/bg097_01_2.webp",
+            "id": 60
+        },
+        {
+            "name": "bg097_01_3.webp",
+            "path": "bg/bg097_01_3.webp",
+            "id": 61
+        },
+        {
+            "name": "bg097_02_0.webp",
+            "path": "bg/bg097_02_0.webp",
+            "id": 62
+        },
+        {
+            "name": "bg097_02_2.webp",
+            "path": "bg/bg097_02_2.webp",
+            "id": 63
+        },
+        {
+            "name": "bg116_01_1.webp",
+            "path": "bg/bg116_01_1.webp",
+            "id": 64
+        },
+        {
+            "name": "bg117_01_3.webp",
+            "path": "bg/bg117_01_3.webp",
+            "id": 65
+        },
+        {
+            "name": "bg118_01_3.webp",
+            "path": "bg/bg118_01_3.webp",
+            "id": 66
+        },
+        {
+            "name": "bg118_02_3.webp",
+            "path": "bg/bg118_02_3.webp",
+            "id": 67
+        },
+        {
+            "name": "bg118_03_1.webp",
+            "path": "bg/bg118_03_1.webp",
+            "id": 68
+        },
+        {
+            "name": "bg118_04_3.webp",
+            "path": "bg/bg118_04_3.webp",
+            "id": 69
+        },
+        {
+            "name": "bg118_05_3.webp",
+            "path": "bg/bg118_05_3.webp",
+            "id": 70
+        },
+        {
+            "name": "bg118_06_3.webp",
+            "path": "bg/bg118_06_3.webp",
+            "id": 71
+        },
+        {
+            "name": "bg120_01_3.webp",
+            "path": "bg/bg120_01_3.webp",
+            "id": 72
+        },
+        {
+            "name": "bg121_01_1.webp",
+            "path": "bg/bg121_01_1.webp",
+            "id": 73
+        },
+        {
+            "name": "bg121_02_1.webp",
+            "path": "bg/bg121_02_1.webp",
+            "id": 74
+        },
+        {
+            "name": "bg122_01_3.webp",
+            "path": "bg/bg122_01_3.webp",
+            "id": 75
+        },
+        {
+            "name": "bg123_01_3.webp",
+            "path": "bg/bg123_01_3.webp",
+            "id": 76
+        },
+        {
+            "name": "bg124_01_3.webp",
+            "path": "bg/bg124_01_3.webp",
+            "id": 77
+        },
+        {
+            "name": "bg128_01_3.webp",
+            "path": "bg/bg128_01_3.webp",
+            "id": 78
+        },
+        {
+            "name": "bg128_02_3.webp",
+            "path": "bg/bg128_02_3.webp",
+            "id": 79
+        },
+        {
+            "name": "bg129_01_3.webp",
+            "path": "bg/bg129_01_3.webp",
+            "id": 80
+        },
+        {
+            "name": "bg129_02_1.webp",
+            "path": "bg/bg129_02_1.webp",
+            "id": 81
+        },
+        {
+            "name": "bg129_03_1.webp",
+            "path": "bg/bg129_03_1.webp",
+            "id": 82
+        },
+        {
+            "name": "bg130_01_3.webp",
+            "path": "bg/bg130_01_3.webp",
+            "id": 83
+        },
+        {
+            "name": "bg131_01_3.webp",
+            "path": "bg/bg131_01_3.webp",
+            "id": 84
+        },
+        {
+            "name": "bg131_02_3.webp",
+            "path": "bg/bg131_02_3.webp",
+            "id": 85
+        },
+        {
+            "name": "bg132_01_3.webp",
+            "path": "bg/bg132_01_3.webp",
+            "id": 86
+        },
+        {
+            "name": "bg138_01_1.webp",
+            "path": "bg/bg138_01_1.webp",
+            "id": 87
+        },
+        {
+            "name": "bg139_01_3.webp",
+            "path": "bg/bg139_01_3.webp",
+            "id": 88
+        },
+        {
+            "name": "bg139_02_3.webp",
+            "path": "bg/bg139_02_3.webp",
+            "id": 89
+        },
+        {
+            "name": "bg140_01_3.webp",
+            "path": "bg/bg140_01_3.webp",
+            "id": 90
+        },
+        {
+            "name": "bg141_01_3.webp",
+            "path": "bg/bg141_01_3.webp",
+            "id": 91
+        },
+        {
+            "name": "bg142_01_3.webp",
+            "path": "bg/bg142_01_3.webp",
+            "id": 92
+        },
+        {
+            "name": "bg143_01_1.webp",
+            "path": "bg/bg143_01_1.webp",
+            "id": 93
+        },
+        {
+            "name": "bg144_01_1.webp",
+            "path": "bg/bg144_01_1.webp",
+            "id": 94
+        },
+        {
+            "name": "bg146_01_2.webp",
+            "path": "bg/bg146_01_2.webp",
+            "id": 95
+        },
+        {
+            "name": "bg148_01_2.webp",
+            "path": "bg/bg148_01_2.webp",
+            "id": 96
+        },
+        {
+            "name": "bg148_02_2.webp",
+            "path": "bg/bg148_02_2.webp",
+            "id": 97
+        },
+        {
+            "name": "bg152_01_1.webp",
+            "path": "bg/bg152_01_1.webp",
+            "id": 98
+        },
+        {
+            "name": "bg153_01_1.webp",
+            "path": "bg/bg153_01_1.webp",
+            "id": 99
+        },
+        {
+            "name": "bg156_01_1.webp",
+            "path": "bg/bg156_01_1.webp",
+            "id": 100
+        },
+        {
+            "name": "bg157_02_1.webp",
+            "path": "bg/bg157_02_1.webp",
+            "id": 101
+        },
+        {
+            "name": "bg158_01_1.webp",
+            "path": "bg/bg158_01_1.webp",
+            "id": 102
+        },
+        {
+            "name": "bg158_02_1.webp",
+            "path": "bg/bg158_02_1.webp",
+            "id": 103
+        },
+        {
+            "name": "bg158_03_1.webp",
+            "path": "bg/bg158_03_1.webp",
+            "id": 104
+        },
+        {
+            "name": "bg159_01_1.webp",
+            "path": "bg/bg159_01_1.webp",
+            "id": 105
+        },
+        {
+            "name": "bg159_02_1.webp",
+            "path": "bg/bg159_02_1.webp",
+            "id": 106
+        },
+        {
+            "name": "bg159_03_1.webp",
+            "path": "bg/bg159_03_1.webp",
+            "id": 107
+        },
+        {
+            "name": "bg159_04_1.webp",
+            "path": "bg/bg159_04_1.webp",
+            "id": 108
+        },
+        {
+            "name": "bg171_01_3.webp",
+            "path": "bg/bg171_01_3.webp",
+            "id": 109
+        },
+        {
+            "name": "bg175_01_3.webp",
+            "path": "bg/bg175_01_3.webp",
+            "id": 110
+        },
+        {
+            "name": "bg175_02_3.webp",
+            "path": "bg/bg175_02_3.webp",
+            "id": 111
+        },
+        {
+            "name": "bg176_01_3.webp",
+            "path": "bg/bg176_01_3.webp",
+            "id": 112
+        },
+        {
+            "name": "bg180_01_1.webp",
+            "path": "bg/bg180_01_1.webp",
+            "id": 113
+        },
+        {
+            "name": "bg183_01_3.webp",
+            "path": "bg/bg183_01_3.webp",
+            "id": 114
+        },
+        {
+            "name": "bg183_02_3.webp",
+            "path": "bg/bg183_02_3.webp",
+            "id": 115
+        },
+        {
+            "name": "bg184_02_3.webp",
+            "path": "bg/bg184_02_3.webp",
+            "id": 116
+        },
+        {
+            "name": "bg186_01_1.webp",
+            "path": "bg/bg186_01_1.webp",
+            "id": 117
+        },
+        {
+            "name": "bg186_02_1.webp",
+            "path": "bg/bg186_02_1.webp",
+            "id": 118
+        },
+        {
+            "name": "bg188_01_3.webp",
+            "path": "bg/bg188_01_3.webp",
+            "id": 119
+        },
+        {
+            "name": "bg188_02_3.webp",
+            "path": "bg/bg188_02_3.webp",
+            "id": 120
+        },
+        {
+            "name": "bg188_03_2.webp",
+            "path": "bg/bg188_03_2.webp",
+            "id": 121
+        },
+        {
+            "name": "bg189_01_1.webp",
+            "path": "bg/bg189_01_1.webp",
+            "id": 122
+        },
+        {
+            "name": "bg202_01_1.webp",
+            "path": "bg/bg202_01_1.webp",
+            "id": 123
+        },
+        {
+            "name": "bg203_01_1.webp",
+            "path": "bg/bg203_01_1.webp",
+            "id": 124
+        },
+        {
+            "name": "bg213_01_6.webp",
+            "path": "bg/bg213_01_6.webp",
+            "id": 125
+        },
+        {
+            "name": "bg213_02_6.webp",
+            "path": "bg/bg213_02_6.webp",
+            "id": 126
+        },
+        {
+            "name": "bg219_01_6.webp",
+            "path": "bg/bg219_01_6.webp",
+            "id": 127
+        },
+        {
+            "name": "bg222_01_6.webp",
+            "path": "bg/bg222_01_6.webp",
+            "id": 128
+        },
+        {
+            "name": "bg222_02_6.webp",
+            "path": "bg/bg222_02_6.webp",
+            "id": 129
+        },
+        {
+            "name": "bg225_01_6.webp",
+            "path": "bg/bg225_01_6.webp",
+            "id": 130
+        },
+        {
+            "name": "bg226_01_6.webp",
+            "path": "bg/bg226_01_6.webp",
+            "id": 131
+        },
+        {
+            "name": "bg227_01_6.webp",
+            "path": "bg/bg227_01_6.webp",
+            "id": 132
+        },
+        {
+            "name": "bg227_02_6.webp",
+            "path": "bg/bg227_02_6.webp",
+            "id": 133
+        },
+        {
+            "name": "bg228_01_6.webp",
+            "path": "bg/bg228_01_6.webp",
+            "id": 134
+        },
+        {
+            "name": "bg233_01_6.webp",
+            "path": "bg/bg233_01_6.webp",
+            "id": 135
+        },
+        {
+            "name": "bg235_01_6.webp",
+            "path": "bg/bg235_01_6.webp",
+            "id": 136
+        },
+        {
+            "name": "bg235_02_6.webp",
+            "path": "bg/bg235_02_6.webp",
+            "id": 137
+        },
+        {
+            "name": "bg236_01_6.webp",
+            "path": "bg/bg236_01_6.webp",
+            "id": 138
+        },
+        {
+            "name": "bg236_02_6.webp",
+            "path": "bg/bg236_02_6.webp",
+            "id": 139
+        },
+        {
+            "name": "bg261_01_3.webp",
+            "path": "bg/bg261_01_3.webp",
+            "id": 140
+        },
+        {
+            "name": "bg261_01_3_jp.webp",
+            "path": "bg/bg261_01_3_jp.webp",
+            "id": 141
+        },
+        {
+            "name": "bg901_01_1.webp",
+            "path": "bg/bg901_01_1.webp",
+            "id": 142
+        },
+        {
+            "name": "bg902_01_6.webp",
+            "path": "bg/bg902_01_6.webp",
+            "id": 143
+        },
+        {
+            "name": "bg902_02_6.webp",
+            "path": "bg/bg902_02_6.webp",
+            "id": 144
+        },
+        {
+            "name": "ev016_01.webp",
+            "path": "bg/ev016_01.webp",
+            "id": 145
+        },
+        {
+            "name": "ev037_01.webp",
+            "path": "bg/ev037_01.webp",
+            "id": 146
+        },
+        {
+            "name": "ev039_03.webp",
+            "path": "bg/ev039_03.webp",
+            "id": 147
+        },
+        {
+            "name": "ev039_04.webp",
+            "path": "bg/ev039_04.webp",
+            "id": 148
+        },
+        {
+            "name": "ev049_01.webp",
+            "path": "bg/ev049_01.webp",
+            "id": 149
+        },
+        {
+            "name": "ev051_01.webp",
+            "path": "bg/ev051_01.webp",
+            "id": 150
+        },
+        {
+            "name": "ev061_01.webp",
+            "path": "bg/ev061_01.webp",
+            "id": 151
+        },
+        {
+            "name": "ev062_02.webp",
+            "path": "bg/ev062_02.webp",
+            "id": 152
+        },
+        {
+            "name": "ev142_01.webp",
+            "path": "bg/ev142_01.webp",
+            "id": 153
+        },
+        {
+            "name": "ibg_ensu_win.webp",
+            "path": "bg/ibg_ensu_win.webp",
+            "id": 154
+        },
+        {
+            "name": "ibg_ensu_win2.webp",
+            "path": "bg/ibg_ensu_win2.webp",
+            "id": 155
+        },
+        {
+            "name": "z_warning.webp",
+            "path": "bg/z_warning.webp",
+            "id": 156
+        },
+        {
+            "name": "song01.hca",
+            "path": "bgm/song01.hca",
+            "id": 157
+        },
+        {
+            "name": "kaz_l1c.webp",
+            "path": "chara/kaz_l1c.webp",
+            "id": 158
+        },
+        {
+            "name": "kaz_l1c_.mvl",
+            "path": "chara/kaz_l1c_.mvl",
+            "id": 159
+        },
+        {
+            "name": "kaz_l1d.webp",
+            "path": "chara/kaz_l1d.webp",
+            "id": 160
+        },
+        {
+            "name": "kaz_l1d_.mvl",
+            "path": "chara/kaz_l1d_.mvl",
+            "id": 161
+        },
+        {
+            "name": "kaz_l1e.webp",
+            "path": "chara/kaz_l1e.webp",
+            "id": 162
+        },
+        {
+            "name": "kaz_l1e_.mvl",
+            "path": "chara/kaz_l1e_.mvl",
+            "id": 163
+        },
+        {
+            "name": "kaz_s1c.webp",
+            "path": "chara/kaz_s1c.webp",
+            "id": 164
+        },
+        {
+            "name": "kaz_s1c_.mvl",
+            "path": "chara/kaz_s1c_.mvl",
+            "id": 165
+        },
+        {
+            "name": "kaz_s1d.webp",
+            "path": "chara/kaz_s1d.webp",
+            "id": 166
+        },
+        {
+            "name": "kaz_s1d_.mvl",
+            "path": "chara/kaz_s1d_.mvl",
+            "id": 167
+        },
+        {
+            "name": "kaz_s1e.webp",
+            "path": "chara/kaz_s1e.webp",
+            "id": 168
+        },
+        {
+            "name": "kaz_s1e_.mvl",
+            "path": "chara/kaz_s1e_.mvl",
+            "id": 169
+        },
+        {
+            "name": "sei_l2a.webp",
+            "path": "chara/sei_l2a.webp",
+            "id": 170
+        },
+        {
+            "name": "sei_l2a_.mvl",
+            "path": "chara/sei_l2a_.mvl",
+            "id": 171
+        },
+        {
+            "name": "sei_l3a.webp",
+            "path": "chara/sei_l3a.webp",
+            "id": 172
+        },
+        {
+            "name": "sei_l3a_.mvl",
+            "path": "chara/sei_l3a_.mvl",
+            "id": 173
+        },
+        {
+            "name": "sei_s2a.webp",
+            "path": "chara/sei_s2a.webp",
+            "id": 174
+        },
+        {
+            "name": "sei_s2a_.mvl",
+            "path": "chara/sei_s2a_.mvl",
+            "id": 175
+        },
+        {
+            "name": "sei_s3a.webp",
+            "path": "chara/sei_s3a.webp",
+            "id": 176
+        },
+        {
+            "name": "sei_s3a_.mvl",
+            "path": "chara/sei_s3a_.mvl",
+            "id": 177
+        },
+        {
+            "name": "sen_l1g.webp",
+            "path": "chara/sen_l1g.webp",
+            "id": 178
+        },
+        {
+            "name": "sen_l1g_.mvl",
+            "path": "chara/sen_l1g_.mvl",
+            "id": 179
+        },
+        {
+            "name": "sen_s1g.webp",
+            "path": "chara/sen_s1g.webp",
+            "id": 180
+        },
+        {
+            "name": "sen_s1g_.mvl",
+            "path": "chara/sen_s1g_.mvl",
+            "id": 181
+        },
+        {
+            "name": "shi_l1a.webp",
+            "path": "chara/shi_l1a.webp",
+            "id": 182
+        },
+        {
+            "name": "shi_l1a_.mvl",
+            "path": "chara/shi_l1a_.mvl",
+            "id": 183
+        },
+        {
+            "name": "shi_l2a.webp",
+            "path": "chara/shi_l2a.webp",
+            "id": 184
+        },
+        {
+            "name": "shi_l2a_.mvl",
+            "path": "chara/shi_l2a_.mvl",
+            "id": 185
+        },
+        {
+            "name": "shi_s1a.webp",
+            "path": "chara/shi_s1a.webp",
+            "id": 186
+        },
+        {
+            "name": "shi_s1a_.mvl",
+            "path": "chara/shi_s1a_.mvl",
+            "id": 187
+        },
+        {
+            "name": "shi_s2a.webp",
+            "path": "chara/shi_s2a.webp",
+            "id": 188
+        },
+        {
+            "name": "shi_s2a_.mvl",
+            "path": "chara/shi_s2a_.mvl",
+            "id": 189
+        },
+        {
+            "name": "sei_l7a.webp",
+            "path": "chara_dlc/sei_l7a.webp",
+            "id": 190
+        },
+        {
+            "name": "sei_l7a_.mvl",
+            "path": "chara_dlc/sei_l7a_.mvl",
+            "id": 191
+        },
+        {
+            "name": "sei_l8a.webp",
+            "path": "chara_dlc/sei_l8a.webp",
+            "id": 192
+        },
+        {
+            "name": "sei_l8a_.mvl",
+            "path": "chara_dlc/sei_l8a_.mvl",
+            "id": 193
+        },
+        {
+            "name": "sei_s7a.webp",
+            "path": "chara_dlc/sei_s7a.webp",
+            "id": 194
+        },
+        {
+            "name": "sei_s7a_.mvl",
+            "path": "chara_dlc/sei_s7a_.mvl",
+            "id": 195
+        },
+        {
+            "name": "sei_s8a.webp",
+            "path": "chara_dlc/sei_s8a.webp",
+            "id": 196
+        },
+        {
+            "name": "sei_s8a_.mvl",
+            "path": "chara_dlc/sei_s8a_.mvl",
+            "id": 197
+        },
+        {
+            "name": "sen_l9g.webp",
+            "path": "chara_dlc/sen_l9g.webp",
+            "id": 198
+        },
+        {
+            "name": "sen_l9g_.mvl",
+            "path": "chara_dlc/sen_l9g_.mvl",
+            "id": 199
+        },
+        {
+            "name": "sen_s9g.webp",
+            "path": "chara_dlc/sen_s9g.webp",
+            "id": 200
+        },
+        {
+            "name": "sen_s9g_.mvl",
+            "path": "chara_dlc/sen_s9g_.mvl",
+            "id": 201
+        },
+        {
+            "name": "ID00000.png",
+            "path": "manual/ID00000.png",
+            "id": 202
+        },
+        {
+            "name": "ID00001.png",
+            "path": "manual/ID00001.png",
+            "id": 203
+        },
+        {
+            "name": "ID00002.png",
+            "path": "manual/ID00002.png",
+            "id": 204
+        },
+        {
+            "name": "mvbulletinboard.usm",
+            "path": "movie/mvbulletinboard.usm",
+            "id": 205
+        },
+        {
+            "name": "mvchapter_a.usm",
+            "path": "movie/mvchapter_a.usm",
+            "id": 206
+        },
+        {
+            "name": "mvchapter_b.usm",
+            "path": "movie/mvchapter_b.usm",
+            "id": 207
+        },
+        {
+            "name": "mvchapter_c.usm",
+            "path": "movie/mvchapter_c.usm",
+            "id": 208
+        },
+        {
+            "name": "mvchapter_d.usm",
+            "path": "movie/mvchapter_d.usm",
+            "id": 209
+        },
+        {
+            "name": "mvchapter_e.usm",
+            "path": "movie/mvchapter_e.usm",
+            "id": 210
+        },
+        {
+            "name": "mvchapter_f.usm",
+            "path": "movie/mvchapter_f.usm",
+            "id": 211
+        },
+        {
+            "name": "mvchapter_g.usm",
+            "path": "movie/mvchapter_g.usm",
+            "id": 212
+        },
+        {
+            "name": "mvchapter_h.usm",
+            "path": "movie/mvchapter_h.usm",
+            "id": 213
+        },
+        {
+            "name": "mvchapter_i.usm",
+            "path": "movie/mvchapter_i.usm",
+            "id": 214
+        },
+        {
+            "name": "mvchapter_j.usm",
+            "path": "movie/mvchapter_j.usm",
+            "id": 215
+        },
+        {
+            "name": "mvchapter_k.usm",
+            "path": "movie/mvchapter_k.usm",
+            "id": 216
+        },
+        {
+            "name": "mvchapter_l.usm",
+            "path": "movie/mvchapter_l.usm",
+            "id": 217
+        },
+        {
+            "name": "mvchapter_m.usm",
+            "path": "movie/mvchapter_m.usm",
+            "id": 218
+        },
+        {
+            "name": "mvchapter_n.usm",
+            "path": "movie/mvchapter_n.usm",
+            "id": 219
+        },
+        {
+            "name": "mvchapter_o.usm",
+            "path": "movie/mvchapter_o.usm",
+            "id": 220
+        },
+        {
+            "name": "mvchapter_p.usm",
+            "path": "movie/mvchapter_p.usm",
+            "id": 221
+        },
+        {
+            "name": "mvchapter_q.usm",
+            "path": "movie/mvchapter_q.usm",
+            "id": 222
+        },
+        {
+            "name": "mvend01.usm",
+            "path": "movie/mvend01.usm",
+            "id": 223
+        },
+        {
+            "name": "mvend02.usm",
+            "path": "movie/mvend02.usm",
+            "id": 224
+        },
+        {
+            "name": "mvend03.usm",
+            "path": "movie/mvend03.usm",
+            "id": 225
+        },
+        {
+            "name": "mvend04.usm",
+            "path": "movie/mvend04.usm",
+            "id": 226
+        },
+        {
+            "name": "mvend05.usm",
+            "path": "movie/mvend05.usm",
+            "id": 227
+        },
+        {
+            "name": "mvend06.usm",
+            "path": "movie/mvend06.usm",
+            "id": 228
+        },
+        {
+            "name": "mvend07.usm",
+            "path": "movie/mvend07.usm",
+            "id": 229
+        },
+        {
+            "name": "mvend08.usm",
+            "path": "movie/mvend08.usm",
+            "id": 230
+        },
+        {
+            "name": "mvend09.usm",
+            "path": "movie/mvend09.usm",
+            "id": 231
+        },
+        {
+            "name": "mveyes01.usm",
+            "path": "movie/mveyes01.usm",
+            "id": 232
+        },
+        {
+            "name": "mveyes03.usm",
+            "path": "movie/mveyes03.usm",
+            "id": 233
+        },
+        {
+            "name": "mvgaya.usm",
+            "path": "movie/mvgaya.usm",
+            "id": 234
+        },
+        {
+            "name": "mvinter01.usm",
+            "path": "movie/mvinter01.usm",
+            "id": 235
+        },
+        {
+            "name": "mvnh01.usm",
+            "path": "movie/mvnh01.usm",
+            "id": 236
+        },
+        {
+            "name": "mvpc01.usm",
+            "path": "movie/mvpc01.usm",
+            "id": 237
+        },
+        {
+            "name": "mvpc02.usm",
+            "path": "movie/mvpc02.usm",
+            "id": 238
+        },
+        {
+            "name": "mvselect02.usm",
+            "path": "movie/mvselect02.usm",
+            "id": 239
+        },
+        {
+            "name": "mvsword03a.usm",
+            "path": "movie/mvsword03a.usm",
+            "id": 240
+        },
+        {
+            "name": "SE_EX01.hca",
+            "path": "se/SE_EX01.hca",
+            "id": 241
+        },
+        {
+            "name": "SE_EX02.hca",
+            "path": "se/SE_EX02.hca",
+            "id": 242
+        },
+        {
+            "name": "SE_EX03.hca",
+            "path": "se/SE_EX03.hca",
+            "id": 243
+        },
+        {
+            "name": "SE_EX04.hca",
+            "path": "se/SE_EX04.hca",
+            "id": 244
+        },
+        {
+            "name": "SE_EX05.hca",
+            "path": "se/SE_EX05.hca",
+            "id": 245
+        },
+        {
+            "name": "SE_EX06.hca",
+            "path": "se/SE_EX06.hca",
+            "id": 246
+        },
+        {
+            "name": "SE_EX07.hca",
+            "path": "se/SE_EX07.hca",
+            "id": 247
+        },
+        {
+            "name": "SE_EX08.hca",
+            "path": "se/SE_EX08.hca",
+            "id": 248
+        },
+        {
+            "name": "backlog.png",
+            "path": "system/backlog.png",
+            "id": 249
+        },
+        {
+            "name": "chatchip.png",
+            "path": "system/chatchip.png",
+            "id": 250
+        },
+        {
+            "name": "config.png",
+            "path": "system/config.png",
+            "id": 251
+        },
+        {
+            "name": "data01.png",
+            "path": "system/data01.png",
+            "id": 252
+        },
+        {
+            "name": "eff_mtrg_mask.png",
+            "path": "system/eff_mtrg_mask.png",
+            "id": 253
+        },
+        {
+            "name": "eff_yesno_swim.png",
+            "path": "system/eff_yesno_swim.png",
+            "id": 254
+        },
+        {
+            "name": "library.png",
+            "path": "system/library.png",
+            "id": 255
+        },
+        {
+            "name": "loadmenu.png",
+            "path": "system/loadmenu.png",
+            "id": 256
+        },
+        {
+            "name": "menuchip.png",
+            "path": "system/menuchip.png",
+            "id": 257
+        },
+        {
+            "name": "movie.png",
+            "path": "system/movie.png",
+            "id": 258
+        },
+        {
+            "name": "music.png",
+            "path": "system/music.png",
+            "id": 259
+        },
+        {
+            "name": "qloadmenu.png",
+            "path": "system/qloadmenu.png",
+            "id": 260
+        },
+        {
+            "name": "rv01f.png",
+            "path": "system/rv01f.png",
+            "id": 261
+        },
+        {
+            "name": "rv01u.png",
+            "path": "system/rv01u.png",
+            "id": 262
+        },
+        {
+            "name": "rv02f.png",
+            "path": "system/rv02f.png",
+            "id": 263
+        },
+        {
+            "name": "rv02u.png",
+            "path": "system/rv02u.png",
+            "id": 264
+        },
+        {
+            "name": "rv03f.png",
+            "path": "system/rv03f.png",
+            "id": 265
+        },
+        {
+            "name": "rv03u.png",
+            "path": "system/rv03u.png",
+            "id": 266
+        },
+        {
+            "name": "rv04f.png",
+            "path": "system/rv04f.png",
+            "id": 267
+        },
+        {
+            "name": "rv04u.png",
+            "path": "system/rv04u.png",
+            "id": 268
+        },
+        {
+            "name": "savemenu.png",
+            "path": "system/savemenu.png",
+            "id": 269
+        },
+        {
+            "name": "shortcut_chip.png",
+            "path": "system/shortcut_chip.png",
+            "id": 270
+        },
+        {
+            "name": "shortcut_chip2.png",
+            "path": "system/shortcut_chip2.png",
+            "id": 271
+        },
+        {
+            "name": "tipschips.png",
+            "path": "system/tipschips.png",
+            "id": 272
+        },
+        {
+            "name": "titlemenu.png",
+            "path": "system/titlemenu.png",
+            "id": 273
+        },
+        {
+            "name": "titlemenu2.png",
+            "path": "system/titlemenu2.png",
+            "id": 274
+        },
+        {
+            "name": "titlemenu2_jp.png",
+            "path": "system/titlemenu2_jp.png",
+            "id": 275
+        },
+        {
+            "name": "wavtable.dat",
+            "path": "system/wavtable.dat",
+            "id": 276
+        },
+        {
+            "name": "ch09_19800050hd.hca",
+            "path": "voice/ch09_19800050hd.hca",
+            "id": 277
+        },
+        {
+            "name": "ch09_19800060hd.hca",
+            "path": "voice/ch09_19800060hd.hca",
+            "id": 278
+        },
+        {
+            "name": "ch09_19800070hd.hca",
+            "path": "voice/ch09_19800070hd.hca",
+            "id": 279
+        },
+        {
+            "name": "ch09_19800070tk.hca",
+            "path": "voice/ch09_19800070tk.hca",
+            "id": 280
+        },
+        {
+            "name": "ch09_19800090tk.hca",
+            "path": "voice/ch09_19800090tk.hca",
+            "id": 281
+        },
+        {
+            "name": "ch09_19800100tk.hca",
+            "path": "voice/ch09_19800100tk.hca",
+            "id": 282
+        },
+        {
+            "name": "ch09_19800110tk.hca",
+            "path": "voice/ch09_19800110tk.hca",
+            "id": 283
+        },
+        {
+            "name": "ch10_21100720ri.hca",
+            "path": "voice/ch10_21100720ri.hca",
+            "id": 284
+        },
+        {
+            "name": "ch10_21700250jn.hca",
+            "path": "voice/ch10_21700250jn.hca",
+            "id": 285
+        },
+        {
+            "name": "ch10_21700260ot.hca",
+            "path": "voice/ch10_21700260ot.hca",
+            "id": 286
+        },
+        {
+            "name": "ch10_21700270hd.hca",
+            "path": "voice/ch10_21700270hd.hca",
+            "id": 287
+        },
+        {
+            "name": "ch10_21700280hd.hca",
+            "path": "voice/ch10_21700280hd.hca",
+            "id": 288
+        },
+        {
+            "name": "ch10_21700290oo.hca",
+            "path": "voice/ch10_21700290oo.hca",
+            "id": 289
+        },
+        {
+            "name": "ch10_21700300hd.hca",
+            "path": "voice/ch10_21700300hd.hca",
+            "id": 290
+        },
+        {
+            "name": "ch10_21700310hd.hca",
+            "path": "voice/ch10_21700310hd.hca",
+            "id": 291
+        },
+        {
+            "name": "ch10_21700320hd.hca",
+            "path": "voice/ch10_21700320hd.hca",
+            "id": 292
+        },
+        {
+            "name": "ch10_21700330hd.hca",
+            "path": "voice/ch10_21700330hd.hca",
+            "id": 293
+        },
+        {
+            "name": "ch10_21700340hd.hca",
+            "path": "voice/ch10_21700340hd.hca",
+            "id": 294
+        },
+        {
+            "name": "ch10_21700350hd.hca",
+            "path": "voice/ch10_21700350hd.hca",
+            "id": 295
+        },
+        {
+            "name": "ch10_21700360hd.hca",
+            "path": "voice/ch10_21700360hd.hca",
+            "id": 296
+        },
+        {
+            "name": "ch10_21700370hd.hca",
+            "path": "voice/ch10_21700370hd.hca",
+            "id": 297
+        },
+        {
+            "name": "ch10_21700380hd.hca",
+            "path": "voice/ch10_21700380hd.hca",
+            "id": 298
+        },
+        {
+            "name": "ch10_21700390hd.hca",
+            "path": "voice/ch10_21700390hd.hca",
+            "id": 299
+        },
+        {
+            "name": "ch10_21700400hd.hca",
+            "path": "voice/ch10_21700400hd.hca",
+            "id": 300
+        },
+        {
+            "name": "ch10_21700410su.hca",
+            "path": "voice/ch10_21700410su.hca",
+            "id": 301
+        },
+        {
+            "name": "ch10_21700420yz.hca",
+            "path": "voice/ch10_21700420yz.hca",
+            "id": 302
+        },
+        {
+            "name": "ch10_21700430yz.hca",
+            "path": "voice/ch10_21700430yz.hca",
+            "id": 303
+        },
+        {
+            "name": "ch10_21700440yz.hca",
+            "path": "voice/ch10_21700440yz.hca",
+            "id": 304
+        },
+        {
+            "name": "ch10_21700450su.hca",
+            "path": "voice/ch10_21700450su.hca",
+            "id": 305
+        },
+        {
+            "name": "ch10_21700460tg.hca",
+            "path": "voice/ch10_21700460tg.hca",
+            "id": 306
+        },
+        {
+            "name": "ch10_21700470su.hca",
+            "path": "voice/ch10_21700470su.hca",
+            "id": 307
+        },
+        {
+            "name": "ch10_21700480tg.hca",
+            "path": "voice/ch10_21700480tg.hca",
+            "id": 308
+        },
+        {
+            "name": "ch10_21700490tg.hca",
+            "path": "voice/ch10_21700490tg.hca",
+            "id": 309
+        },
+        {
+            "name": "ch10_21700500tg.hca",
+            "path": "voice/ch10_21700500tg.hca",
+            "id": 310
+        },
+        {
+            "name": "ch10_21700510su.hca",
+            "path": "voice/ch10_21700510su.hca",
+            "id": 311
+        },
+        {
+            "name": "ch10_21700520tg.hca",
+            "path": "voice/ch10_21700520tg.hca",
+            "id": 312
+        },
+        {
+            "name": "ch10_21700530yz.hca",
+            "path": "voice/ch10_21700530yz.hca",
+            "id": 313
+        },
+        {
+            "name": "ch10_21700540su.hca",
+            "path": "voice/ch10_21700540su.hca",
+            "id": 314
+        },
+        {
+            "name": "ch10_21700550su.hca",
+            "path": "voice/ch10_21700550su.hca",
+            "id": 315
+        },
+        {
+            "name": "ch10_21700560tg.hca",
+            "path": "voice/ch10_21700560tg.hca",
+            "id": 316
+        },
+        {
+            "name": "ch10_21700570yz.hca",
+            "path": "voice/ch10_21700570yz.hca",
+            "id": 317
+        },
+        {
+            "name": "ch10_21700580su.hca",
+            "path": "voice/ch10_21700580su.hca",
+            "id": 318
+        },
+        {
+            "name": "chn04_01000280ko.hca",
+            "path": "voice/chn04_01000280ko.hca",
+            "id": 319
+        },
+        {
+            "name": "chn04_01000290ko.hca",
+            "path": "voice/chn04_01000290ko.hca",
+            "id": 320
+        },
+        {
+            "name": "chn04_01000300ko.hca",
+            "path": "voice/chn04_01000300ko.hca",
+            "id": 321
+        },
+        {
+            "name": "bgmex.hca",
+            "path": "bgm/bgmex.hca",
+            "id": 322
+        },
+        {
+            "name": "eff_mtrg_noise.png",
+            "path": "system/eff_mtrg_noise.png",
+            "id": 323
+        },
+        {
+            "name": "eff_yesno_door.png",
+            "path": "system/eff_yesno_door.png",
+            "id": 324
+        },
+        {
+            "name": "eff_yesno_door2.png",
+            "path": "system/eff_yesno_door2.png",
+            "id": 325
+        },
+        {
+            "name": "bg195_01_6.webp",
+            "path": "bg/bg195_01_6.webp",
+            "id": 326
+        },
+        {
+            "name": "bg195_02_6.webp",
+            "path": "bg/bg195_02_6.webp",
+            "id": 327
+        },
+        {
+            "name": "bbs_05_107a_1.webp",
+            "path": "bg/bbs_05_107a_1.webp",
+            "id": 328
+        },
+        {
+            "name": "bbs_05_107a_2.webp",
+            "path": "bg/bbs_05_107a_2.webp",
+            "id": 329
+        },
+        {
+            "name": "bbs_05_107a_1_jp.webp",
+            "path": "bg/bbs_05_107a_1_jp.webp",
+            "id": 330
+        },
+        {
+            "name": "bbs_05_107a_2_jp.webp",
+            "path": "bg/bbs_05_107a_2_jp.webp",
+            "id": 331
+        },
+        {
+            "name": "tutorial.webp",
+            "path": "bg/tutorial.webp",
+            "id": 332
+        },
+        {
+            "name": "tutorial_jp.webp",
+            "path": "bg/tutorial_jp.webp",
+            "id": 333
+        },
+        {
+            "name": "config_jp.png",
+            "path": "system/config_jp.png",
+            "id": 334
+        }
+    ]
+}

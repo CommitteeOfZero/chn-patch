@@ -1,0 +1,26 @@
+config.ps1
+temp/
+DIST/
+symbols/
+c0data/*
+!c0data/_meta.json
+c0data_switch_eng/*
+c0data_switch_jpn/*
+cri-tools/lib/__pycache__
+cri-tools/lib/cri/__pycache__
+cri-tools/lib/tools/__pycache__
+/*.zip
+/*.rar
+
+# noidget
+installer/build/*
+!installer/build/.gitkeep
+installer/deploy/
+installer/deployUninstaller/
+installer/userdata/enscriptToc.json
+installer/userdata/enscriptTocC.json
+
+# realboot
+launcher/build/*
+!launcher/build/.gitkeep
+launcher/deploy/
