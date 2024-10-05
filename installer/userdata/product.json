@@ -1,0 +1,56 @@
+{
+    "windowTitle": "CHAOS;HEAD NOAH Overhaul Patch (Steam) Installer",
+    "uninstallerWindowTitle": "CHAOS;HEAD NOAH Overhaul Patch (Steam) Uninstaller",
+    "gameTitle": "CHAOS;HEAD NOAH",
+    "inputScriptVersionTitle": "Steam",
+    "paths": {
+        "GAME_STEAM_NAME": "CHAOS;HEAD NOAH",
+        "GAME_STEAM_ID": "1961950",
+        "GAME_EXE": "%GAME_PATH%/Game_Steam.exe",
+        "GAME_EXE_RENAMED": "%GAME_PATH%/Game.exe",
+        "PATCH_CONTENT": "DIST",
+        "STEAMGRID_CONTENT": "STEAMGRID",
+        "SCRIPT_DIFFS": "merged_patches",
+        "SCRIPT_CONSISTENCY_DIFFS": "merged_patches_c",
+        "ENSCRIPT_MPK": "%GAME_PATH%/languagebarrier/enscript.mpk",
+        "ENSCRIPT_CONSISTENCY_MPK": "%GAME_PATH%/languagebarrier/enscript_c.mpk",
+        "LAUNCHERENG_PATH": "%GAME_PATH%/Game_Steam.exe",
+        "LANGUAGEBARRIER_LOG_PATH": "%GAME_PATH%/languagebarrier/log.txt",
+        "LAUNCHER_EXE": "Game_Steam.exe"
+    },
+    "platforms": {
+        "windows": {
+            "conflictingProcesses": [
+                "Game.exe",
+                "noidget.exe",
+                "launcher.exe",
+                "Game_Steam.exe",
+                "CHNSteamPatch-Installer.exe"
+            ],
+            "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ChaosHeadNoahSteamPatch",
+            "uninstallProductDisplayName": "CHAOS;HEAD NOAH Steam Patch",
+            "uninstallProductDisplayVersion": "1.1.0",
+            "uninstallProductVersionMajor": 1,
+            "uninstallProductVersionMinor": 1,
+            "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
+            "paths": {
+                "COZ_CONFIG_LOCATION": "%LOCALAPPDATA%/Committee of Zero",
+                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/CHNSteam",
+                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/mages_steam",
+                "GAME_CONFIG_LOCATION": "%MAGES_CONFIG_LOCATION%/CHAOS;HEAD NOAH",
+                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/CHAOS;HEAD NOAH Overhaul Patch (Steam).lnk",
+                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/CHAOS;HEAD NOAH Overhaul Patch (Steam).lnk"
+            }
+        }
+    },
+    "playShortcut": {
+        "displayName": "CHAOS;HEAD NOAH Overhaul Patch (Steam)",
+        "version": "1.1.0",
+        "targetPath": "%LAUNCHERENG_PATH%",
+        "workingDir": "%GAME_PATH%",
+        "tooltip": "Play CHAOS;HEAD NOAH Overhaul Patch (Steam)",
+        "xdgCategories": "Game_Steam"
+    },
+    "origScriptArchivePath": "%GAME_PATH%/USRDIR/script.mpk",
+    "origScriptArchiveHash": "03f35afbe829872e9bea9a17064f149d"
+}
