@@ -44,73 +44,14 @@ function DiscoverExisting() {
 
   state.discovery.run = true;
 
-  switch (ng.systemInfo.platform()) {
-    case ng.systemInfo.OsFamily.Windows:
-      if (ng.win32.registry().valueExists(
-              ng.win32.RootKey.HKLM,
-              product.platforms.windows.uninstallProductKey, false,
-              'InstallLocation')) {
-        state.discovery.gameFound = true;
+  if (ng.win32.registry().valueExists(
+    ng.win32.RootKey.HKLM, 'SOFTWARE\\WOW6432Node\\GOG.com\\Games\\1902238860', true, 'workingDir')){
+      state.discovery.gameFound = true;
         state.discovery.patchFound = true;
         state.discovery.gameLocation = ng.win32.registry().value(
-            ng.win32.RootKey.HKLM,
-            product.platforms.windows.uninstallProductKey, false,
-            'InstallLocation');
-      } else {
-        // Steam discovery
-
-        // Find library folders
-        var libraryFolders = ['%STEAM_PATH%'];
-        if (ng.fs.global().pathIsFile(
-                '%STEAM_PATH%/steamapps/libraryfolders.vdf') &&
-            ng.fs.global().pathIsReadable(
-                '%STEAM_PATH%/steamapps/libraryfolders.vdf')) {
-          libraryfoldersVdf = ng.fs.global().readTextFile(
-              '%STEAM_PATH%/steamapps/libraryfolders.vdf');
-
-          // parse text VDF, poorly
-          var strLiteralRegex = /"([^"]*)"/g;
-          while ((match = strLiteralRegex.exec(libraryfoldersVdf)) !== null) {
-            var unescaped = eval(match[0]);  // yolo
-            if (ng.fs.global().pathIsDirectory(unescaped))
-              libraryFolders.push(unescaped);
-          }
-        }
-
-        // check all library folders for our game
-        var tryPath =
-            function(path) {
-          if (ng.fs.global().pathIsDirectory(path)) {
-            state.discovery.gameFound = true;
-            state.discovery.gameLocation = path;
-            return true;
-          }
-          return false;
-        }
-
-        if (nglib.isSteamPlay()) {
-          // missing slash here is intentional
-          var compatdata =
-              ng.fs.global().expandedPath('Z:%STEAM_COMPAT_DATA_PATH%');
-          var startSteamapps = compatdata.indexOf('/steamapps/');
-          if (startSteamapps !== -1) {
-            libraryFolders.push(compatdata.substr(0, startSteamapps));
-          }
-        }
-
-        // SteamApps is all lowercase for the main library, CamelCase for
-        // others... and we should respect case sensitivity for Wine
-        for (var i = 0; i < libraryFolders.length; i++) {
-          if (tryPath(
-                  libraryFolders[i] + '/steamapps/common/%GAME_STEAM_NAME%'))
-            return;
-          if (tryPath(
-                  libraryFolders[i] + '/SteamApps/common/%GAME_STEAM_NAME%'))
-            return;
-        }
-      }
-      break;
-  }
+          ng.win32.RootKey.HKLM, 'SOFTWARE\\WOW6432Node\\GOG.com\\Games\\1902238860', true,
+          'workingDir');
+    }
 }
 
 function DoTx() {
@@ -169,7 +110,7 @@ function DoTx() {
     }
   }
 
-  // We're renaming the exe since we had to rename the launcher to be called by Steam since canaryMagesLauncher is dead.
+ // We're renaming the exe since we had to rename the launcher to be called by GOG since canaryMagesLauncher is dead.
   var applyPatchesSection = ng.tx.tx().addSection('Applying patches');
 
   applyPatchesSection.log('Renaming game executable...');
@@ -177,10 +118,6 @@ function DoTx() {
   if (!ng.fs.global().pathIsFile('%GAME_EXE_RENAMED%')) {
     applyPatchesSection.copyFiles('%GAME_EXE%', '%GAME_EXE_RENAMED%');
   }
-    
-  // We're replacing Steam Grid assets for them to be spoiler-free and cool
-  var steamGridSection = ng.tx.tx().addSection('Replacing Steam Grid assets');
-  steamGridSection.copyFiles('%STEAMGRID_CONTENT%/*', '%STEAM_PATH%/userdata/%STEAM_ACTIVE_USER%/config/grid')
 
   var patchContentSection = ng.tx.tx().addSection('Copying patch content');
   patchContentSection.copyFiles('%PATCH_CONTENT%/*', '%GAME_PATH%');
@@ -354,22 +291,12 @@ switch (ng.systemInfo.platform()) {
             'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders',
             true, 'Personal'));
     if (ng.win32.registry().valueExists(
-            ng.win32.RootKey.HKCU, 'Software\\Valve\\Steam', true,
-            'SteamPath')) {
-      ng.fs.global().setMacro(
-          'STEAM_PATH',
+      ng.win32.RootKey.HKLM, 'SOFTWARE\\WOW6432Node\\GOG.com\\Games\\1902238860', true, 'workingDir')){
+        ng.fs.global().setMacro(
+          'GAME_PATH',
           ng.win32.registry().value(
-              ng.win32.RootKey.HKCU, 'Software\\Valve\\Steam', true,
-              'SteamPath'));
-    }
-    if (ng.win32.registry().valueExists(
-            ng.win32.RootKey.HKCU, 'Software\\Valve\\Steam\\ActiveProcess', true,
-            'ActiveUser')) {
-      ng.fs.global().setMacro(
-          'STEAM_ACTIVE_USER',
-          ng.win32.registry().value(
-              ng.win32.RootKey.HKCU, 'Software\\Valve\\Steam\\ActiveProcess', true,
-              'ActiveUser'));
+              ng.win32.RootKey.HKLM, 'SOFTWARE\\WOW6432Node\\GOG.com\\Games\\1902238860', true,
+              'workingDir'));
     }
     break;
 }
