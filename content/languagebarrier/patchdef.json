@@ -1,7 +1,7 @@
 {
 	"__schema_version": 2,
-	"appdatadir": "Committee of Zero\\CHNSteam",
-	"patchName": "[CoZ] CHAOS;HEAD NOAH Overhaul Patch (Steam)",
+	"appdatadir": "Committee of Zero\\CHNGOG",
+	"patchName": "[CoZ] CHAOS;HEAD NOAH Overhaul Patch (GOG)",
 	"patchVersion": "1.1.0",
 	"base": {
 		"hookText": true,
