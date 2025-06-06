@@ -1,4 +1,4 @@
-CHAOS;HEAD NOAH Overhaul Patch (Steam) depends on a number of third-party components:
+CHAOS;HEAD NOAH Overhaul Patch (GOG) depends on a number of third-party components:
 
 Installer background music: "SHIBUYA from CHAOS;HEAD -opn version-" by Takeshi Abo <https://soundcloud.com/valsound/shibuya-from-chaoshead-opn-version>
 Bonus music: "Real Link -piano2022- / CHAOS;HEAD NOAH" by Takeshi Abo <https://www.youtube.com/watch?v=FPT81_j81YQ>

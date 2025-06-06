@@ -14,7 +14,7 @@ $version_string = "1.1.2"
 $tool_icon = "CoZIcon.ico"
 $game_icon = "LauncherIcon.ico"
 $publisher = "Committee of Zero"
-$product_name = "CHAOS;HEAD NOAH Overhaul Patch (Steam)"
+$product_name = "CHAOS;HEAD NOAH Overhaul Patch (GOG)"
 
 # Code
 
@@ -135,7 +135,7 @@ Copy-Item $languagebarrier_dir\x64\$languagebarrier_configuration\*.pdb .\symbol
 Copy-Item -Recurse $languagebarrier_dir\x64\$languagebarrier_configuration\languagebarrier .\DIST
 New-Item -ItemType directory -Path ".\DIST\HEAD NOAH" | Out-Null
 # TODO how does wine handle this?
-Move-Item .\DIST\*.dll ".\DIST\HEAD NOAH\"
+Copy-Item .\DIST\*.dll ".\DIST\HEAD NOAH\"
 # Reported necessary for some users, otherwise:
 # "Procedure entry point csri_renderer_default could not be located in ...\HEAD NOAH\DINPUT8.dll"
 Copy-Item ".\DIST\HEAD NOAH\VSFilter.dll " .\DIST\
@@ -161,7 +161,7 @@ PrintSection "Building and copying realboot"
 cd launcher
 & .\realboot_build.bat
 cd ..
-SetRealbootExeMetadata .\launcher\deploy\Game_Steam.exe
+SetRealbootExeMetadata .\launcher\deploy\Game.exe
 Copy-Item -Recurse -Force .\launcher\deploy\* .\DIST
 Copy-Item -Recurse -Force .\launcher\build\release\*.pdb .\symbols
 
@@ -183,15 +183,13 @@ cmd /c copy /b .\temp\UninstallerExtractor.exe + .\temp\sfxbaseUninstaller.7z DI
 
 PrintSection "Packing installer"
 cd temp
-$patchFolderName = "CHNSteamPatch-v$version_string-Setup"
+$patchFolderName = "CHNGOGPatch-v$version_string-Setup"
 New-Item -ItemType directory -Path $patchFolderName | Out-Null
 cd $patchFolderName
 New-Item -ItemType directory -Path DIST | Out-Null
 Move-Item -Force ..\..\DIST\* .\DIST
-New-Item -ItemType directory -Path STEAMGRID | Out-Null
-Copy-Item -Recurse -Force  ..\..\content_steamgrid\* .\STEAMGRID
 Move-Item -Force ..\..\installer\deploy\* .
-Move-Item -Force .\noidget.exe .\CHNSteamPatch-Installer.exe
+Move-Item -Force .\noidget.exe .\CHNGOGPatch-Installer.exe
 cd ..\..\DIST
 7z a -t7z -mx=5 -m0=lzma2 "$patchFolderName.7z" "..\temp\$patchFolderName"
 cd ..
