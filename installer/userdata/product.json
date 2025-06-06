@@ -1,31 +1,31 @@
 {
-    "windowTitle": "CHAOS;HEAD NOAH Overhaul Patch (Steam) Installer",
-    "uninstallerWindowTitle": "CHAOS;HEAD NOAH Overhaul Patch (Steam) Uninstaller",
+    "windowTitle": "CHAOS;HEAD NOAH Overhaul Patch (GOG) Installer",
+    "uninstallerWindowTitle": "CHAOS;HEAD NOAH Overhaul Patch (GOG) Uninstaller",
     "gameTitle": "CHAOS;HEAD NOAH",
-    "inputScriptVersionTitle": "Steam",
+    "inputScriptVersionTitle": "GOG",
     "paths": {
         "GAME_STEAM_NAME": "CHAOS;HEAD NOAH",
         "GAME_STEAM_ID": "1961950",
-        "GAME_EXE": "%GAME_PATH%/Game_Steam.exe",
-        "GAME_EXE_RENAMED": "%GAME_PATH%/Game.exe",
+        "GAME_EXE": "%GAME_PATH%/Game.exe",
+        "GAME_EXE_RENAMED": "%GAME_PATH%/Game_GOG.exe",
         "PATCH_CONTENT": "DIST",
         "STEAMGRID_CONTENT": "STEAMGRID",
         "SCRIPT_DIFFS": "merged_patches",
         "SCRIPT_CONSISTENCY_DIFFS": "merged_patches_c",
         "ENSCRIPT_MPK": "%GAME_PATH%/languagebarrier/enscript.mpk",
         "ENSCRIPT_CONSISTENCY_MPK": "%GAME_PATH%/languagebarrier/enscript_c.mpk",
-        "LAUNCHERENG_PATH": "%GAME_PATH%/Game_Steam.exe",
+        "LAUNCHERENG_PATH": "%GAME_PATH%/Game.exe",
         "LANGUAGEBARRIER_LOG_PATH": "%GAME_PATH%/languagebarrier/log.txt",
-        "LAUNCHER_EXE": "Game_Steam.exe"
+        "LAUNCHER_EXE": "Game.exe"
     },
     "platforms": {
         "windows": {
             "conflictingProcesses": [
-                "Game.exe",
+                "Game_GOG.exe",
                 "noidget.exe",
                 "launcher.exe",
-                "Game_Steam.exe",
-                "CHNSteamPatch-Installer.exe"
+                "Game.exe",
+                "CHNGOGPatch-Installer.exe"
             ],
             "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ChaosHeadNoahSteamPatch",
             "uninstallProductDisplayName": "CHAOS;HEAD NOAH Steam Patch",
@@ -35,11 +35,11 @@
             "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
             "paths": {
                 "COZ_CONFIG_LOCATION": "%LOCALAPPDATA%/Committee of Zero",
-                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/CHNSteam",
-                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/mages_steam",
+                "CONFIG_LOCATION": "%COZ_CONFIG_LOCATION%/CHNGOG",
+                "MAGES_CONFIG_LOCATION": "%MYDOCUMENTS%/My Games/Mages Inc",
                 "GAME_CONFIG_LOCATION": "%MAGES_CONFIG_LOCATION%/CHAOS;HEAD NOAH",
-                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/CHAOS;HEAD NOAH Overhaul Patch (Steam).lnk",
-                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/CHAOS;HEAD NOAH Overhaul Patch (Steam).lnk"
+                "DESKTOP_SHORTCUT_PATH": "%DESKTOP%/CHAOS;HEAD NOAH Overhaul Patch (GOG).lnk",
+                "STARTMENU_SHORTCUT_PATH": "%STARTMENU%/CHAOS;HEAD NOAH Overhaul Patch (GOG).lnk"
             }
         }
     },
@@ -48,8 +48,8 @@
         "version": "1.1.2",
         "targetPath": "%LAUNCHERENG_PATH%",
         "workingDir": "%GAME_PATH%",
-        "tooltip": "Play CHAOS;HEAD NOAH Overhaul Patch (Steam)",
-        "xdgCategories": "Game_Steam"
+        "tooltip": "Play CHAOS;HEAD NOAH Overhaul Patch (GOG)",
+        "xdgCategories": "Game"
     },
     "origScriptArchivePath": "%GAME_PATH%/USRDIR/script.mpk",
     "origScriptArchiveHash": "03f35afbe829872e9bea9a17064f149d"
