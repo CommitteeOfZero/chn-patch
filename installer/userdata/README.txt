@@ -1,4 +1,4 @@
-CHAOS;HEAD NOAH Overhaul Patch (Steam)
+CHAOS;HEAD NOAH Overhaul Patch (GOG)
 Committee of Zero
 Version 1.1.1 - July 22nd, 2025
 ==============================
