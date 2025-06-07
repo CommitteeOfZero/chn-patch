@@ -5,7 +5,9 @@ symbols/
 c0data/*
 !c0data/_meta.json
 c0data_switch_eng/*
+!c0data_switch_eng/system/*.json
 c0data_switch_jpn/*
+!c0data_switch_jpn/system/*.json
 cri-tools/lib/__pycache__
 cri-tools/lib/cri/__pycache__
 cri-tools/lib/tools/__pycache__
