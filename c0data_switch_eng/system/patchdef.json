@@ -1,0 +1,12 @@
+{
+    "__schema_version": 1,
+    "base": {
+        "hookText": true,
+        "outlinedFont": false,
+        "atlasDialogueMargin": 8.0,
+        "addNametags": true,
+        "nametagOptionLayout": "chneng",
+        "tipReimplementation": true,
+        "chnRedoChat": true
+    }
+}

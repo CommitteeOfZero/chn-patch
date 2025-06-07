@@ -1,4 +1,4 @@
-CHAOS;HEAD NOAH Overhaul Patch (Steam)
+CHAOS;HEAD NOAH Overhaul Patch (Switch)
 Committee of Zero
 Version 1.1.2 - August 1st, 2025
 ==============================
@@ -32,7 +32,6 @@ Changes from 1.0.2:
 
 * Added a nametag in-game option for accessibility.
 * Added a tutorial for delusion triggers.
-* Added mousewheel support to save and CG menus.
 * Minor text fixes.
 * Translated a few additional BGs for consistency.
 * Fixed a bug where the wrong CG was called.

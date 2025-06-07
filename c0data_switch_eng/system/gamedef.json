@@ -1,0 +1,342 @@
+{
+    "__schema_version": 1,
+    "signatures": {
+        "game": {
+            "GSLfontStretchF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 01 D1 FD 7B 03 A9 FD C3 00 91 29 5C 00 12 0A E0 BF"
+            },
+            "GSLfontStretchWithMaskF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 03 D1 FD 7B 09 A9 FD 43 02 91 F5 53 00 F9 F4"
+            },
+            "GSLfontStretchWithMaskExF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 03 D1 FD 7B 09 A9 FD 43 02 91 F5 53 00 F9 F4 4F 0B A9 B0 3B 40 BD A6 1F"
+            },
+            "TipsDataInit": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FD 03 00 91 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 FF 3B 40 D1 FF C3 29"
+            },
+            "MESsetNGflag": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08"
+            },
+            "ChatLayout": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 43 07 D1 FD 7B 17 A9 FD C3 05 91 FC 6F 18 A9 FA 67 19 A9 F8 5F 1A A9 F6 57 1B A9 F4 4F 1C A9 2B"
+            },
+            "CalMain": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 43 02 D1 FD 7B 03 A9 FD C3 00 91 FC 6F 04 A9 FA 67 05 A9 F8 5F 06 A9 F6 57 07 A9 F4 4F 08 A9 77 1B 00 F0 F7"
+            },
+            "ChatRendering": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EF 3B B6 6D ED 33 01 6D EB 2B 02 6D E9 23 03 6D FD 7B 04 A9 FD 03 01 91 FC 6F 05 A9 FA 67 06 A9 F8 5F 07 A9 F6 57 08 A9 F4 4F 09 A9 FF 07 40 D1 FF 03 06"
+            },
+            "MESdrawTextExF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "E8 0F 19 FC FD 7B 01 A9 FD 43 00 91 FC 6F 02 A9 FA 67 03 A9 F8 5F 04 A9 F6 57 05 A9 F4 4F 06 A9 FF 07 40 D1"
+            },
+            "GSLflatRectF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 43 01 D1 FD 7B 03 A9 FD C3 00 91 F4 4F 04 A9 48 20"
+            },
+            "SetFlag": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "09 08 00 12 2A 00 80 52 49 21 C9 1A AA 19 00 B0 4A 0D 41 F9 4B 01 40 F9"
+            },
+            "GetFlag": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "AA 19 00 B0 4A 0D 41 F9 4A 01 40 F9 E8 03 00 2A 08 FD 43 D3 09 08"
+            },
+            "MESrevDispText": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA"
+            },
+            "MESrevDispInit" : {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BF A9 FD 03 00 91 ?? ?? ?? ?? 6C 1A 00 F0 8C 0D 45 F9 9F"
+            },
+            "SystemMenuDisp": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 1C FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 F4 4f 03 A9 F3 1A 00 F0"
+            },
+            "SpeakerDrawingFunction": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 43 02 D1 FD 7B 06 A9 FD 83 01 91 F5 3B 00 F9 F4 4F 08 A9 48 20"
+            },
+            "OptionDispChip2": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 19 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FA 67 03 A9 F8"
+            },
+            "OptionMain": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0"
+            },
+            "OptionDefault": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "C8 1A 00 F0 08 31 45 F9 08 01 40 B9 1F 0D 00 71 ?? ?? ?? ?? 29 08"
+            },
+            "SSEvolume": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "00 00 23 1E 88 51 A8 52 01 01 27 1E 08 59 A8 52 00 08 21"
+            },
+            "SSEplay": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 E8 FF 9F"
+            },
+            "widthCheck": {
+                "patterns": ["1F 79 05 71", "3F 79 05 71", "3F 7D 05 71", "5F 79 05 71", "7F 79 05 71", "7F 3D 06 71", "BF 3D 06 71", "7F 7D 05 71", "5F 3D 06 71"]
+            },
+            "fontAlinePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EF 3B B6 6D ED 33 01 6D EB 2B 02 6D E9 23 03 6D FD 7B 04 A9 FD 03 01 91 FC 6F 05 A9 FA 67 06 A9 F8 5F 07 A9 F6 57 08 A9 F4 4F 09 A9 FF 07 40 D1 FF 03 06",
+                "expr": "(ptr + 100, 8)"
+            },
+            "fontAline2Ptr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EF 3B B6 6D ED 33 01 6D EB 2B 02 6D E9 23 03 6D FD 7B 04 A9 FD 03 01 91 FC 6F 05 A9 FA 67 06 A9 F8 5F 07 A9 F6 57 08 A9 F4 4F 09 A9 FF 07 40 D1 FF 03 06",
+                "expr": "(ptr + 96, 8)"
+            },
+            "englishOnlyOffsetTable": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EF 3B B6 6D ED 33 01 6D EB 2B 02 6D E9 23 03 6D FD 7B 04 A9 FD 03 01 91 FC 6F 05 A9 FA 67 06 A9 F8 5F 07 A9 F6 57 08 A9 F4 4F 09 A9 FF 07 40 D1 FF 03 06",
+                "expr": "*(ptr + 96, 8) + 400"
+            },
+            "SaveMenuGuide": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 02 D1 E8 0B 00 FD FD 7B 02 A9 FD 83 00 91 FC 6F 03 A9 FA 67 04 A9 F8 5F 05 A9 F6 57 06 A9 F4 4F 07 A9 1F",
+                "expr": "*(ptr + 0xAC, 8)"
+            },
+            "englishTipsFixBranch1": {
+                "occurrence": 0,
+                "offset": 1960,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FD 03 00 91 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 08"
+            },
+            "englishTipsFixBranch2": {
+                "occurrence": 0,
+                "offset": 2204,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FD 03 00 91 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 08"
+            },
+            "audioLoweringAddr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "18 7F 01 53"
+            },
+            "MEStextDatNumPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 12, 4)"
+            },
+            "MESngFontListTopNumPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 28, 8)"
+            },
+            "MESngFontListLastNumPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 32, 8)"
+            },
+            "MEStextFl": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 48, 12)"
+            },
+            "MEStext": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 52, 16)"
+            },
+            "MESngFontListLast": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 56, 32)"
+            },
+            "MESngFontListTop": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "F8 5F BD A9 F6 57 01 A9 F4 4F 02 A9 88 1A 00 D0 08 C5 46 F9 08",
+                "expr": "*(ptr + 64, 0x24)"
+            },
+            "ScrWork": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BE A9 F3 0B 00 F9 FD 03 00 91 20 62 81 52 21 00 80 52 33 00 80 52 ?? ?? ?? ?? 08 1C 00 B0 08 4D 47 F9 08 01 40 F9 09 AC 8D 52 08 01 09 8B 09 01 40 B9 29 05 00 11 3F 81 00",
+                "expr": "*(ptr + 28, 4)"
+            },
+            "MesFontColor":  {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 A8 1A 00 B0 08 C5 46",
+                "expr": "*(ptr + 80, 0x18)"
+            },
+            "EPmaxPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FD 03 00 91 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 FF 3B 40 D1 FF C3 29",
+                "expr": "*(ptr + 340, 4)"
+            },
+            "MESrevText": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 0x6C, 8)"
+            },
+            "MESrevLineBufUsePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BF A9 FD 03 00 91 ?? ?? ?? ?? 6C 1A 00 F0 8C 0D 45 F9 9F",
+                "expr": "*(ptr + 60, 4)"
+            },
+            "MESrevDispMaxPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 1C FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 F4 4f 03 A9 F3 1A 00 F0",
+                "expr": "*(ptr + 0x778, 4)"
+            },
+            "MESrevTextSize": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 112, 8)"
+            },
+            "MESrevTextPos": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 508, 8)"
+            },
+            "MESrevDispPosPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 292, 4)"
+            },
+            "MESrevLineBufp": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 388, 4)"
+            },
+            "MESrevDispLinePos": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 360, 4)"
+            },
+            "MESrevDispLinePosY": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF C3 02 D1 E8 23 00 FD FD 7B 05 A9 FD 43 01 91 FC 6F 06 A9 FA",
+                "expr": "*(ptr + 272, 4)"
+            },
+            "OPTmenuModePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 19 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FA 67 03 A9 F8",
+                "expr": "*(ptr + 144, 4)"
+            },
+            "OPTmenuCur": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 19 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FA 67 03 A9 F8",
+                "expr": "*(ptr + 36, 8)"
+            },
+            "OPTmenuPagePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 19 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FA 67 03 A9 F8",
+                "expr": "*(ptr + 32, 8)"
+            },
+            "PADcustom": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0",
+                "expr": "*(ptr + 44, 8)"
+            },
+            "PADrefPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0",
+                "expr": "*(ptr + 536, 4)"
+            },
+            "PADonePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0",
+                "expr": "*(ptr + 40, 8)"
+            },
+            "SYSSEvolPtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0",
+                "expr": "*(ptr + 72, 4)"
+            },
+            "MesNameDispLen": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BA A9 FC 6F 01 A9 FA 67 02 A9 F8 5F 03 A9 F6 57 04 A9 F4 4F 05 A9 FF 03 08 D1 B2",
+                "expr": "*(ptr + 0x638, 4)"
+            },
+            "OPTmenuMaxCur": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FD 7B BC A9 F7 0B 00 F9 FD 03 00 91 F6 57 02 A9 F4 4F 03 A9 D3 1A 00 D0",
+                "expr": "*(ptr + 0x27c, 4)"
+            },
+            "SkipModeFix": {
+                "occurrence": 0,
+                "offset": 1112,
+                "pattern": "FF C3 01 D1 FD 7B 01 A9 FD 43 00 91 FC 6F 02 A9 FA 67 03 A9 F8 5F 04 A9 F6 57 05 A9 F4 4F 06 A9 08 AC 40 F9"
+            },
+            "DoZSelection1": {
+                "occurrence": 0,
+                "offset": 904,
+                "pattern": "FD 7B BD A9 F5 0B 00 F9 FD 03 00 91 F4 4F 02 A9 F5 1A"
+            },
+            "DoZSelection2": {
+                "occurrence": 0,
+                "offset": 428,
+                "pattern": "FD 7B BD A9 F5 0B 00 F9 FD 03 00 91 F4 4F 02 A9 F5 1A"
+            },
+            "ShortcutMenuFix": {
+                "occurrence": 0,
+                "offset": 176,
+                "pattern": "FD 7B BD A9 F5 0B 00 F9 FD 03 00 91 F4 4F 02 A9 D3 1A 00 F0 73 3A 45 F9 49"
+            }
+        }
+    }
+}
