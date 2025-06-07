@@ -1,0 +1,53 @@
+{
+    "__schema_version": 1,
+    "signatures": {
+        "game": {
+            "GSLfontStretchF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 01 D1 FD 7B 03 A9 FD C3 00 91 29 5C 00 12 0A E0 BF"
+            },
+            "GSLfontStretchWithMaskF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 03 D1 FD 7B 09 A9 FD 43 02 91 F5 53 00 F9 F4"
+            },
+            "GSLfontStretchWithMaskExF": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 03 D1 FD 7B 09 A9 FD 43 02 91 F5 53 00 F9 F4 4F 0B A9 B0 3B 40 BD A6 1F"
+            },
+            "widthCheck": {
+                "patterns": ["1F 79 05 71", "3F 79 05 71", "3F 7D 05 71", "5F 79 05 71", "7F 79 05 71", "7F 3D 06 71", "BF 3D 06 71", "7F 7D 05 71", "5F 3D 06 71"]
+            },
+            "fontAlinePtr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 18 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FC 6F 03 A9 FA 67 04 A9 F8 5F 05 A9 F6 57 06 A9 F4 4F 07 A9 9F 00",
+                "expr": "(ptr + 0x48, 12)"
+            },
+            "fontAline2Ptr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "EA 0F 18 FC E9 23 01 6D FD 7B 02 A9 FD 83 00 91 FC 6F 03 A9 FA 67 04 A9 F8 5F 05 A9 F6 57 06 A9 F4 4F 07 A9 9F 00",
+                "expr": "(ptr + 0x44, 8)"
+            },
+            "SaveMenuGuide": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "FF 03 02 D1 E8 0B 00 FD FD 7B 02 A9 FD 83 00 91 FC 6F 03 A9 FA 67 04 A9 F8 5F 05 A9 F6 57 06 A9 F4 4F 07 A9 1F",
+                "expr": "*(ptr + 0xAC, 8)"
+            },
+            "audioLoweringAddr": {
+                "occurrence": 0,
+                "offset": 0,
+                "pattern": "18 7F 01 53"
+            },
+            "SkipModeFix": {
+                "occurrence": 0,
+                "offset": 1112,
+                "pattern": "FF C3 01 D1 FD 7B 01 A9 FD 43 00 91 FC 6F 02 A9 FA 67 03 A9 F8 5F 04 A9 F6 57 05 A9 F4 4F 06 A9 08 AC 40 F9"
+            }
+        }
+    }
+}
