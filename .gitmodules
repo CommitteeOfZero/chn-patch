@@ -1,12 +1,6 @@
-[submodule "installer/noidget"]
-	path = installer/noidget
-	url = https://github.com/CommitteeOfZero/noidget.git
-[submodule "launcher/realboot"]
-	path = launcher/realboot
-	url = https://github.com/CommitteeOfZero/realboot.git
-[submodule "LanguageBarrier64"]
-	path = LanguageBarrier64
-	url = https://github.com/CommitteeOfZero/LanguageBarrier64.git
 [submodule "coalesc3"]
 	path = coalesc3
 	url = https://github.com/CommitteeOfZero/coalesc3
+[submodule "RegionalDialect"]
+	path = RegionalDialect
+	url = https://github.com/CommitteeOfZero/RegionalDialect
