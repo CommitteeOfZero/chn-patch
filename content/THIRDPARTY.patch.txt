@@ -1,0 +1,31 @@
+CHAOS;HEAD NOAH Overhaul Patch (Switch) depends on a number of third-party components:
+
+Bonus music: "Real Link -piano2022- / CHAOS;HEAD NOAH" by Takeshi Abo <https://www.youtube.com/watch?v=FPT81_j81YQ>
+Ingame text font: VLPGothic by Dicey <http://vlgothic.dicey.org/>
+
+Subtitle fonts:
+* Aozora Mincho <https://en.m.fontke.com/font/10461636/download/>
+* Centabel <https://www.dafont.com/centabel.font>
+* DCC Sharp Distress Black <https://www.dafont.com/dcc-sharp-distress-black.font>
+* Doulos <https://www.dafont.com/doulos-sil.font>
+* Eligible <https://www.1001freefonts.com/eligible.font>
+* Hanazono Mincho <https://osdn.net/projects/hanazono-font/>
+* Imprimerie <https://www.dafont.com/imprimerie.font>
+* IPAexMincho <https://www.freejapanesefont.com/ipaex-mincho/>
+* K Gothic <https://booth.pm/ja/items/1025180>
+* Leorio <https://www.dafont.com/leorio.font>
+* Maboroshi no Nijimi Mincho <http://www.fontna.com/blog/1912/>
+* Mamelon 4 Hi <https://moji-waku.com/mamelon/index.html>
+* Mikiyu Penji <https://www.freejapanesefont.com/mikiyu-font-new-penji-download/>
+* Nagayama Kai <https://www.freejapanesefont.com/nagayama-kai-calligraphy-font-download/>
+* Nemuke <http://poiut.web.fc2.com/computer/fonts/nemuke.html>
+* Noto Serif JP <https://fonts.google.com/noto/specimen/Noto+Serif+JP>
+* Roman Antique <https://www.dafont.com/roman-antique.font>
+* Roundslab Serif <https://www.dafont.com/roundslab-serif.font>
+* Sans Mateo <https://www.dafont.com/sans-mateo.font>
+* Soukou Mincho <https://www.freejapanesefont.com/soukou-mincho-font-download/>
+* Source Han Serif <https://source.typekit.com/source-han-serif/>
+* Stop Bullying <https://www.dafont.com/stop-bullying.font>
+* Sweetie Pie <https://www.dafont.com/sweetie-pie.font>
+* Togalite <https://moji-waku.com/togalite/>
+* VLPGothic <http://vlgothic.dicey.org/>
