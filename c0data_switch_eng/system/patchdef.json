@@ -1,0 +1,11 @@
+{
+    "__schema_version": 1,
+    "base": {
+        "hookText": true,
+        "transformAtlas": true,
+        "addNametags": true,
+        "nametagOptionLayout": "chneng",
+        "tipReimplementation": true,
+        "chnRedoChat": true
+    }
+}
