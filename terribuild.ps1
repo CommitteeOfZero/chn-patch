@@ -193,7 +193,7 @@ Copy-Item -Recurse -Force  ..\..\content_steamgrid\* .\STEAMGRID
 Move-Item -Force ..\..\installer\deploy\* .
 Move-Item -Force .\noidget.exe .\CHNSteamPatch-Installer.exe
 cd ..\..\DIST
-7z a -t7z -mx=5 -m0=lzma2 "$patchFolderName.zip" "..\temp\$patchFolderName"
+7z a -t7z -mx=5 -m0=lzma2 "$patchFolderName.7z" "..\temp\$patchFolderName"
 cd ..
 
 PrintSection "Removing temp"
