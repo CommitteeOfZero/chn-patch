@@ -10,7 +10,7 @@ catch {
 }
 
 # EXE metadata configuration
-$version_string = "1.1.1"
+$version_string = "1.1.2"
 $tool_icon = "CoZIcon.ico"
 $game_icon = "LauncherIcon.ico"
 $publisher = "Committee of Zero"
