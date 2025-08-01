@@ -1,6 +1,6 @@
 CHAOS;HEAD NOAH Overhaul Patch (Steam)
 Committee of Zero
-Version 1.1.1 - July 22nd, 2025
+Version 1.1.2 - August 1st, 2025
 ==============================
 https://sonome.dareno.me
 https://twitter.com/CommitteeOf0
@@ -13,6 +13,12 @@ https://www.twitch.tv/CommitteeOfZero
 See https://sonome.dareno.me/projects/chn-patch.html for details, contact information and further instructions.
 
 For troubleshooting, please come to our Discord. You can always find the latest version of the patch at https://github.com/CommitteeOfZero/chn-patch/releases
+
+==============================
+Changes from 1.1.1:
+==============================
+
+* Fixed the 0xc0000142 error some users had.
 
 ==============================
 Changes from 1.1.0:
@@ -33,6 +39,7 @@ Changes from 1.0.2:
 * Fixed a bug in the shortcut menu.
 * Fixed a bug in true end's scripting.
 * Fixed a bug where an achievement unlocked early.
+* Fixed a crash in Chapter 5 on Intel Pentium.
 
 ==============================
 Changes from 1.0.1:

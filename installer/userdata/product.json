@@ -29,7 +29,7 @@
             ],
             "uninstallProductKey": "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ChaosHeadNoahSteamPatch",
             "uninstallProductDisplayName": "CHAOS;HEAD NOAH Steam Patch",
-            "uninstallProductDisplayVersion": "1.1.1",
+            "uninstallProductDisplayVersion": "1.1.2",
             "uninstallProductVersionMajor": 1,
             "uninstallProductVersionMinor": 1,
             "uninstallProductUninstallString": "\"%GAME_PATH%/nguninstall.exe\"",
@@ -45,7 +45,7 @@
     },
     "playShortcut": {
         "displayName": "CHAOS;HEAD NOAH Overhaul Patch (Steam)",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "targetPath": "%LAUNCHERENG_PATH%",
         "workingDir": "%GAME_PATH%",
         "tooltip": "Play CHAOS;HEAD NOAH Overhaul Patch (Steam)",
