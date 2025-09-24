@@ -231,7 +231,7 @@
 			},
 			"sc3Eval": {
 				"occurrence": 0,
-				"offset": 0,
+				"offset": -10,
 				"pattern": "48 89 54 24 ?? 57"
 			},
 			"textureFilteringBranch": {
