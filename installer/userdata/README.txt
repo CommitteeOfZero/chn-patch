@@ -1,6 +1,6 @@
 CHAOS;HEAD NOAH Overhaul Patch (Steam)
 Committee of Zero
-Version 1.1.2 - August 1st, 2025
+Version 1.1.3 - October 12th, 2025
 ==============================
 https://sonome.dareno.me
 https://twitter.com/CommitteeOf0
@@ -13,6 +13,13 @@ https://www.twitch.tv/CommitteeOfZero
 See https://sonome.dareno.me/projects/chn-patch.html for details, contact information and further instructions.
 
 For troubleshooting, please come to our Discord. You can always find the latest version of the patch at https://github.com/CommitteeOfZero/chn-patch/releases
+
+==============================
+Changes from 1.1.2:
+==============================
+
+* Fixed broken system messages.
+* Fixed a few sprites.
 
 ==============================
 Changes from 1.1.1:
